@@ -17,7 +17,7 @@
 	<!-- Open Markup for Facebook -->
 	<meta property="og:url"					content="https://sopotbridge.pl/pl/" />
 	<meta property="og:type"				content="website" />
-	<meta property="og:title"				content="57. Międzynarodowy Kongres Bałtycki" />
+	<meta property="og:title"				content="60. Międzynarodowy Kongres Bałtycki" />
 	<meta property="og:description"			content="Oficjalna strona Międzynarodowego Kongresu Bałtyckiego - wyniki, regulaminy, zdjęcia i inne" />
 	<meta property="og:image"				content="http://sopotbridge.pl/pl/_logos/mkb.png" />
 	<meta property="og:image:secure_url"	content="https://sopotbridge.pl/pl/_logos/mkb.png" />
@@ -32,7 +32,21 @@
 	<!-- more external help -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
 	<!-- end of external help-->
 
 	<link rel="stylesheet" href="_css/index.css" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0Q0LFWS1Q4"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-0Q0LFWS1Q4');
+	</script>

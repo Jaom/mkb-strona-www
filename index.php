@@ -9,9 +9,9 @@
 	<?php require_once('index_head.php'); ?>
 	<?php
 	if($english)
-		echo '<title>57th International Baltic Congress</title>';
+		echo '<title>60th International Baltic Congress</title>';
 	else
-		echo '<title>57. Międzynarodowy Kongres Bałtycki</title>';
+		echo '<title>60. Międzynarodowy Kongres Bałtycki</title>';
 	?>
 </head>
 
@@ -22,18 +22,19 @@
 		<?php require_once('index_header.php'); ?>
 	</header>
 
-<div class="flex-horizontal">
-	<main role="main">
-		<?php require_once('index_schedule.php'); ?>
-	</main>
-	
-	<aside>
-		<?php require_once('index_aside.php'); ?>
-	</aside>
-	
-	<footer>
-		<?php require_once('index_footer.php'); ?>
-	</footer>
-</div>
+		<div class="flex-horizontal">
+			<main role="main">
+				<?php require_once('index_schedule.php'); ?>
+			</main>
+			
+			<aside>
+				<?php require_once('index_aside.php'); ?>
+			</aside>
+			
+			<footer>
+				<?php require_once('index_footer.php'); ?>
+			</footer>
+		</div>
+	</div>
 </body>
 </html>
