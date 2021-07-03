@@ -1,0 +1,18 @@
+{
+    "name": "Kongres Ba\u0142tycki",
+    "icons": [
+        {
+            "src": "_favicon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "_favicon/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#038fb2",
+    "background_color": "#038fb2",
+    "display": "standalone"
+}

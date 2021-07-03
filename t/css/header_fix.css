@@ -1,0 +1,76 @@
+/* Selecting the main page header and making it nice */
+
+/* Postaramy się, żeby strona nam nie skakała przy reload */
+#logoh {
+	min-height: 139px;
+	min-width: 661px;
+}
+
+#logoh > div#loader {
+	text-align:center;
+	padding-top: 15px;
+}
+
+#logoh > div#loader > i {
+	opacity: 0.15;
+}
+
+.pageHeader {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 0 5px 0;
+	align-items: center;
+	margin: auto;
+	align-items: stretch;
+}
+
+.tournamentInfo {
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.tournamentInfo p {
+	font-style: oblique;
+	margin: 0;
+}
+
+.tournamentInfo h1 {
+	margin: auto;
+}
+
+.navbar-header {
+	width: 100%;
+}
+
+.navbar-brand {
+	width: 100%;
+}
+
+.navbar {
+	margin-bottom:0px !important;
+	min-height:35px !important;
+	margin: 0 10px;
+}
+
+.single-column.navbar {
+	margin: 0 30px;
+}
+
+.nav.navbar-nav {
+	margin-top: 10px;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:7px !important; 
+    padding-bottom:0 !important;
+    height: 35px;
+}
+
+@media (max-width: 767px) {
+	div.image { display: none }
+	span.hideNarrow { display: none }
+	.navbar-brand { width: 80% }
+}

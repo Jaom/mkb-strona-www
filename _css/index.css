@@ -1,0 +1,352 @@
+/* Nice fonts */
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&amp;subset=latin-ext);
+
+/* fixing Font Awesome */
+aside div.list-group a.sidebar-button i {
+	margin-right: 5px;
+}
+
+
+	
+/* Selecting the main page header and making it nice */
+div#page-wrapper > header {
+	display: flex;
+	padding: 5px 0 20px 0;
+	align-items: center;
+}
+
+/* General lay-out*/ 
+.flex-horizontal {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+}
+
+#page-wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto;
+	font-family: 'PT Sans', sans-serif;
+	color: #003057;
+}
+
+/* Lets handle the logo */
+.logoBold {
+	font-weight: 700;
+	
+}
+
+.tournamentInfo {
+	color: #003057;
+	margin-left: 20px;
+}
+
+.tournamentInfo p {
+	font-style: oblique;
+	font-size: x-large;
+	margin: 0;
+}
+
+.tournamentInfo h1 {
+	font-size: 40px;
+}
+
+section > header > h3 {
+	background-color: #018cab; 
+	color: #fff;
+	display: inline-block;
+	min-width: 250px;
+	font-size: 16px;
+	font-weight: 700;
+	padding-left: 80px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+h3 > span.day {
+	font-style: oblique;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+a.language {
+	background-color: #018cab; 
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;"
+	
+}
+
+
+/* Playing with maim */
+main {
+	flex-grow: 2;
+	max-width: 650px;
+}
+
+/* Playing with footer */
+footer p {
+	font-style: oblique;
+}
+
+/* More random stuff */
+ol, ul {
+	list-style-type: none;
+	padding-left: 80px;
+}
+
+li {
+	padding-top: 4px;
+}
+
+time {
+	font-weight: bold;
+	color: #038fb2;
+	padding-right: 10px;
+}
+
+.label-tournament {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.label-important {
+	background-color: #b94a48;
+	margin-left: -5px;
+}
+
+.live {
+ 	-webkit-animation: progress-bar-stripes 2s linear infinite;
+ 	-o-animation: progress-bar-stripes 2s linear infinite;
+ 	animation: progress-bar-stripes 2s linear infinite;
+ 	animation-direction: reverse;
+}
+
+/* Kropki turniejowe */
+
+.circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+	display: inline-block;
+	margin-bottom: 1px;
+	margin-right: 5px;
+}
+
+.otwarty {
+	background-color: #469F64
+}
+
+.kongresowy {
+	background-color: #004678
+}
+
+.mpt {
+	background-color: #B11116
+}
+
+.gppp {
+	background-color: #FFF;
+	border: 1px solid #333;
+}
+
+.amator {
+	background-color: #FFDF52
+}
+
+.blank {
+	background-color: #FFF;
+	opacity: 0;
+}
+
+.right, .left {
+  height: 8px;
+  width: 4px;
+  display: inline-block;
+  margin-bottom: 1px;
+}
+
+.right {
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-right: 5px;
+}
+
+.left {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+/* Partners */
+a.partner > img {
+	width: 200px;
+	opacity: 1;
+}
+
+a.partner {
+	display: block;
+	padding: 10px;
+}
+
+aside header h2 {
+	border-bottom: 2px solid rgba(0, 48, 87, 0.5);
+	padding-bottom: 6px;
+}
+
+.sidebar-button {
+	position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    border: 1px solid #387a76;
+	color: #003057;
+	text-decoration: none;
+	min-width: 225px;
+}
+
+a.sidebar-button:focus, a.sidebar-button:hover, button.sidebar-button:focus, button.sidebar-button:hover {
+	color: #003057;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+
+.sidebar-button.disabled, .sidebar-button.disabled:focus, .sidebar-button.disabled:hover {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #eee;
+}
+
+.sidebar-button > i.fa {
+	min-width: 20px;
+}
+
+/* Wpiswe */
+
+table.entryFeesTable {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+section.entryFeesSection {
+	text-align: justify;
+	padding-right: 50px;
+}
+
+section.entryFeesSection ol {
+	padding-left: 40px;
+	list-style-type: decimal;
+}
+
+section.entryFeesSection p {
+	font-style: italic;
+}
+
+td, th {
+	border-left: 1px solid rgba(0, 48, 87, 0.3);
+	padding: 4px 4px 4px 4px;
+}
+
+th {
+	text-align: center;
+}
+
+tr {
+	border-top: 1px solid rgba(0, 48, 87, 0.5);
+}
+
+tr:first-child {
+	border-top: none;
+}
+
+
+td:first-child, th:first-child {
+	border-left: none;
+	text-align: left;
+	padding-left: 5px;
+}
+
+/* No print  */
+@media print
+{    
+    .no-print, .no-print *, aside
+    {
+        display: none !important;
+    }
+  
+    .collapse.navbar-collapse, .image, .f, body > center > table > tbody {
+        display: none !important;
+    }
+    
+    .navbar {
+        display: block;
+        border: none;
+        margin: 0;
+        width: auto;
+    }
+
+    .navbar * { /* bo nie wiem, co tam w środku zostaje... */
+        border: none;
+        display: none;
+    }
+    
+    .navbar-header, .navbar-brand, .navbar h1 {
+        display: block;
+        white-space: nowrap;
+        margin: auto;
+        float: none;
+        width: 200%;
+    }
+
+
+    /* Fixing printing url in firefox */
+    a:link:after,
+    a:visited:after {
+        content: "" !important;
+    }
+}
+
+/* Warning box */
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.bs-callout-danger {
+  border-left-color: #ce4844;
+}
+.bs-callout-danger h4 {
+  color: #ce4844;
+}
+
+.bs-callout-warning {
+  border-left-color: #aa6708;
+}
+.bs-callout-warning h4 {
+  color: #aa6708;
+}
+.bs-callout-info {
+  border-left-color: #1b809e;
+}
+.bs-callout-info h4 {
+  color: #1b809e;
+}

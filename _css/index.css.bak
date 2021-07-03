@@ -1,0 +1,180 @@
+/* Nice fonts */
+/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400); */
+/* @import url(http://fonts.googleapis.com/css?family=Inconsolata); */
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&amp;subset=latin-ext);
+@import url(boom_hover.css);
+
+/* fixing Font Awesome */
+aside div.list-group a.list-group-item i {
+	margin-right: 5px;
+}
+
+
+	
+/* Selecting the main page header and making it nice */
+div#page-wrapper > header {
+	display: flex;
+	padding: 5px 0 20px 0;
+	align-items: center;
+}
+
+/* General lay-out*/ 
+.flex-horizontal {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+}
+
+#page-wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto;
+	font-family: 'PT Sans', sans-serif;
+	color: #003057;
+}
+
+/* Lets handle the logo */
+.logoBold {
+	font-weight: 700;
+	
+}
+
+.tournamentInfo {
+	color: #003057;
+	margin-left: 20px;
+}
+
+.tournamentInfo p {
+	font-style: oblique;
+	font-size: x-large;
+	margin: 0;
+}
+
+.tournamentInfo h1 {
+	font-size: 40px;
+}
+
+section > header > h3 {
+	background-color: #018cab; 
+	color: #fff;
+	display: inline-block;
+	min-width: 250px;
+	font-size: 18px;
+	font-weight: 700;
+	padding-left: 80px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+h3 > span.day {
+	font-style: oblique;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+/* Playing with maim */
+main {
+	flex-grow: 2;
+}
+
+/* Playing with footer */
+footer p {
+	font-style: oblique;
+}
+
+/* More random stuff */
+ol, ul {
+	list-style-type: none;
+	padding-left: 80px;
+}
+
+li {
+	padding-top: 4px;
+}
+
+time {
+	font-weight: bold;
+	color: #038fb2;
+	
+}
+
+li > time::after {
+	content: " - ";
+}
+
+.label-tournament {
+	min-width: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.label-important {
+	background-color: #b94a48;
+	margin-left: -5px;
+}
+
+.live {
+ 	-webkit-animation: progress-bar-stripes 2s linear infinite;
+ 	-o-animation: progress-bar-stripes 2s linear infinite;
+ 	animation: progress-bar-stripes 2s linear infinite;
+ 	animation-direction: reverse;
+}
+/* Partners */
+a.partner > img {
+	width: 200px;
+	opacity: 1;
+}
+
+a.partner {
+	display: block;
+	padding: 10px;
+}
+
+aside header h2 {
+	border-bottom: 2px solid rgba(0, 48, 87, 0.5);
+	padding-bottom: 6px;
+}
+
+/* No print  */
+@media print
+{    
+    .no-print, .no-print *, aside
+    {
+        display: none !important;
+    }
+  
+    .collapse.navbar-collapse, .image, .f, body > center > table > tbody {
+        display: none !important;
+    }
+    
+    .navbar {
+        display: block;
+        border: none;
+        margin: 0;
+        width: auto;
+    }
+
+    .navbar * { /* bo nie wiem, co tam w środku zostaje... */
+        border: none;
+        display: none;
+    }
+    
+    .navbar-header, .navbar-brand, .navbar h1 {
+        display: block;
+        white-space: nowrap;
+        margin: auto;
+        float: none;
+        width: 200%;
+    }
+
+
+    /* Fixing printing url in firefox */
+    a:link:after,
+    a:visited:after {
+        content: "" !important;
+    }
+}

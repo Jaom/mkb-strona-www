@@ -1,0 +1,174 @@
+@import url(http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
+@import url(//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+@import 'bidding.css';
+
+/* Minor fixes */
+table {
+margin: 0 auto;
+}
+
+div.image a:hover {
+  text-decoration: none;
+  background-color: transparent; 
+}
+
+body > a.br {
+  margin: auto;
+}
+
+
+/* Tables Hover */
+/* Boards and scores */
+#pro > table > tbody > tr:hover:nth-child(n+4) {
+  background-color: #f5f5f5;
+}
+
+/* Live scores */
+#wyn > table > tbody > tr:hover:nth-child(n+3) {
+  background-color: #f5f5f5;
+}
+
+/* Final scores */
+body.all > table > tbody > tr:hover:nth-child(n+5) {
+  background-color: #f5f5f5;
+}
+/* end of Tables Hover */
+
+
+/* Boards and scores layout */
+body > table > tbody > tr > td[valign="top"] {
+  padding: 0 20px;
+}
+
+
+/* Pagination */
+body > center > table > tbody {
+  text-align: center;
+}
+
+body > center > table > tbody > tr * {
+  font-size: 10pt !important;
+}
+
+td.hz {
+  padding: 0px;
+} 
+
+body > center > table > tbody > tr:first-child {
+  display: inline-block;
+  padding-left: 0;
+  margin: 2px 0;
+  border-radius: 4px;
+}
+body > center > table > tbody > tr:first-child > td {
+  display: inline;
+}
+body > center > table > tbody > tr:first-child > td > a,
+body > center > table > tbody > tr:first-child > td > font > b {
+  position: relative;
+  float: left;
+  padding: 6px 6px;
+  min-width: 26px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+body > center > table > tbody > tr:first-child > td:first-child > a,
+body > center > table > tbody > tr:first-child > td:first-child > font > b {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+body > center > table > tbody > tr:first-child > td:last-child > a,
+body > center > table > tbody > tr:first-child > td:last-child > font > b {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+body > center > table > tbody > tr:first-child > td > a:hover,
+body > center > table > tbody > tr:first-child > td > font > b:hover,
+body > center > table > tbody > tr:first-child > td > a:focus,
+body > center > table > tbody > tr:first-child > td > font > b:focus {
+  z-index: 2;
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+}
+body > center > table > tbody > tr:first-child > .active > a,
+body > center > table > tbody > tr:first-child > td > font > b,
+body > center > table > tbody > tr:first-child > .active > a:hover,
+body > center > table > tbody > tr:first-child > td > font > b:hover,
+body > center > table > tbody > tr:first-child > .active > a:focus,
+body > center > table > tbody > tr:first-child > .active > font > b:focus {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+body > center > table > tbody > tr:first-child > .disabled > font > b,
+body > center > table > tbody > tr:first-child > .disabled > font > b:hover,
+body > center > table > tbody > tr:first-child > .disabled > font > b:focus,
+body > center > table > tbody > tr:first-child > .disabled > a,
+body > center > table > tbody > tr:first-child > .disabled > a:hover,
+body > center > table > tbody > tr:first-child > .disabled > a:focus {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+/*  */
+body > center > table > tbody > tr:nth-child(2) > td {
+  display: inline;
+}
+body > center > table > tbody > tr:nth-child(2) > td > a {
+  display: inline-block;
+  padding: 5px 40px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+body > center > table > tbody > tr:nth-child(2) > td > a:hover,
+body > center > table > tbody > tr:nth-child(2) > td > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+  color: inherit;
+}
+body > center > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > center > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > center > table > tbody > tr:nth-child(2) > td:nth-child(5) {
+  display: none;
+}
+
+/* end of Pagination */
+
+/* No print  */
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+  
+  .navbar, .image, .f, body > center > table > tbody {
+        display: none !important;
+    }
+
+    /* Fixing printing url in firefox */
+    a:link:after,
+    a:visited:after {
+        content: "" !important;
+    }
+}
+
+/* Wykluczenia z długiej fali */
+/* #tmp */
+tr a.excluded  { font-style: oblique }
+tr a.excluded::before { content: "opiekun"; font-size: 0.8em; margin: 0 5px 0 0; border: solid 1px black; padding: 2px; font-style: normal }
+tr a.excluded.main-director::before { content: "leser nadrzędny" !important }
+tr a.excluded.supporting-director::before { content: "leser podrzędny" !important }

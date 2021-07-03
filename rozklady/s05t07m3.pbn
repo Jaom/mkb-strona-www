@@ -1,0 +1,962 @@
+﻿% PBN 1.0
+[Generator "Big Deal version 1.1.JFR"]
+[Event "Event"]
+[Board "1"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:K95.K65.K864.T94 JT863.3.J75.Q873 Q7.AQJ42.AQT9.K2 A42.T987.32.AJ65"]
+[Ability "N:85AA4 E:37327 S:A5AB6 W:37327"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 4
+N D 10
+N H 10
+N S 5
+N NT 8
+E C 7
+E D 2
+E H 3
+E S 7
+E NT 3
+S C 6
+S D 11
+S H 10
+S S 5
+S NT 10
+W C 7
+W D 2
+W H 3
+W S 7
+W NT 3
+[OptimumScore "NS 430"]
+[Minimax "4NS430"]
+
+[Event "Event"]
+[Board "2"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:QT543.T5432.KJ9. AK9.K9.AT72.AQ76 J6.AJ8.Q5.KJT954 872.Q76.8643.832"]
+[Ability "N:78956 E:65487 S:68856 W:65487"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 6
+N D 5
+N H 9
+N S 8
+N NT 7
+E C 7
+E D 8
+E H 4
+E S 5
+E NT 6
+S C 6
+S D 5
+S H 8
+S S 8
+S NT 6
+W C 7
+W D 8
+W H 4
+W S 5
+W NT 6
+[OptimumScore "NS 140"]
+[Minimax "3HN140"]
+
+[Event "Event"]
+[Board "3"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:T97.832.QJ53.732 KQJ64.KJ7.AK8.T6 A5.Q965.T94.KQ84 832.AT4.762.AJ95"]
+[Ability "N:22344 E:AB999 S:22344 W:AB999"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 4
+N D 4
+N H 3
+N S 2
+N NT 2
+E C 9
+E D 9
+E H 9
+E S 11
+E NT 10
+S C 4
+S D 4
+S H 3
+S S 2
+S NT 2
+W C 9
+W D 9
+W H 9
+W S 11
+W NT 10
+[OptimumScore "NS -650"]
+[Minimax "4SE-650"]
+
+[Event "Event"]
+[Board "4"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:87.Q982.752.KQ42 AJ43.4.QT986.J65 K9652.AJ3.K.AT83 QT.KT765.AJ43.97"]
+[Ability "N:67649 E:76594 S:67749 W:76594"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 9
+N D 4
+N H 6
+N S 7
+N NT 6
+E C 4
+E D 9
+E H 5
+E S 6
+E NT 7
+S C 9
+S D 4
+S H 7
+S S 7
+S NT 6
+W C 4
+W D 9
+W H 5
+W S 6
+W NT 7
+[OptimumScore "NS -110"]
+[Minimax "3DE-110"]
+
+[Event "Event"]
+[Board "5"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:T42.82.KJ73.9432 A9.KQ9643.865.76 KQJ83.A.AT42.AK8 765.JT75.Q9.QJT5"]
+[Ability "N:7B6CA E:22713 S:7B6CA W:22713"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 10
+N D 12
+N H 6
+N S 11
+N NT 7
+E C 3
+E D 1
+E H 7
+E S 2
+E NT 2
+S C 10
+S D 12
+S H 6
+S S 11
+S NT 7
+W C 3
+W D 1
+W H 7
+W S 2
+W NT 2
+[OptimumScore "NS 1100"]
+[Minimax "6HDE1100"]
+
+[Event "Event"]
+[Board "6"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:AJ3.JT6.A642.QT8 Q5.AK94.QJ98.K75 KT872.72.KT3.AJ3 964.Q853.75.9642"]
+[Ability "N:9A798 E:33645 S:9A798 W:33645"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 8
+N D 9
+N H 7
+N S 10
+N NT 9
+E C 5
+E D 4
+E H 6
+E S 3
+E NT 3
+S C 8
+S D 9
+S H 7
+S S 10
+S NT 9
+W C 5
+W D 4
+W H 6
+W S 3
+W NT 3
+[OptimumScore "NS 420"]
+[Minimax "4SS420"]
+
+[Event "Event"]
+[Board "7"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:A754.AQJ82.A43.8 QJT.K93.K9.Q9543 62.75.Q7652.AKJ2 K983.T64.JT8.T76"]
+[Ability "N:A8AA9 E:35324 S:A8AA8 W:35324"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 9
+N D 10
+N H 10
+N S 8
+N NT 10
+E C 4
+E D 2
+E H 3
+E S 5
+E NT 3
+S C 8
+S D 10
+S H 10
+S S 8
+S NT 10
+W C 4
+W D 2
+W H 3
+W S 5
+W NT 3
+[OptimumScore "NS 630"]
+[Minimax "3NN630"]
+
+[Event "Event"]
+[Board "8"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:QJT4.42.J843.653 K75.K7.QT765.872 A9632.83.A92.JT4 8.AQJT965.K.AKQ9"]
+[Ability "N:26252 E:B7B8B S:26252 W:76B8B"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 2
+N D 5
+N H 2
+N S 6
+N NT 2
+E C 11
+E D 8
+E H 11
+E S 7
+E NT 11
+S C 2
+S D 5
+S H 2
+S S 6
+S NT 2
+W C 11
+W D 8
+W H 11
+W S 6
+W NT 7
+[OptimumScore "NS -460"]
+[Minimax "4NE-460"]
+
+[Event "Event"]
+[Board "9"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:JT7654..T7642.J4 KQ9.QJT93.8.Q763 A.7654.Q953.KT85 832.AK82.AKJ.A92"]
+[Ability "N:25264 E:B7B47 S:25274 W:B7B67"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 4
+N D 6
+N H 2
+N S 5
+N NT 2
+E C 7
+E D 4
+E H 11
+E S 7
+E NT 11
+S C 4
+S D 7
+S H 2
+S S 5
+S NT 2
+W C 7
+W D 6
+W H 11
+W S 7
+W NT 11
+[OptimumScore "NS -660"]
+[Minimax "4NE-660"]
+
+[Event "Event"]
+[Board "10"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:93.K54.KJ875.KQ9 A72.96.92.AT8754 KT65.QJ832.AQT6. QJ84.AT7.43.J632"]
+[Ability "N:67BB5 E:36228 S:67BB5 W:36228"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 5
+N D 11
+N H 11
+N S 7
+N NT 6
+E C 8
+E D 2
+E H 2
+E S 6
+E NT 3
+S C 5
+S D 11
+S H 11
+S S 7
+S NT 6
+W C 8
+W D 2
+W H 2
+W S 6
+W NT 3
+[OptimumScore "NS 650"]
+[Minimax "4HS650"]
+
+[Event "Event"]
+[Board "11"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K52.J82.A8.K7652 QJ9.K95.KT643.A9 T8.AQT6.QJ9752.4 A7643.743..QJT83"]
+[Ability "N:75796 E:58546 S:74796 W:58446"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 6
+N D 9
+N H 7
+N S 5
+N NT 7
+E C 6
+E D 4
+E H 5
+E S 8
+E NT 5
+S C 6
+S D 9
+S H 7
+S S 4
+S NT 7
+W C 6
+W D 4
+W H 4
+W S 8
+W NT 5
+[OptimumScore "NS 100"]
+[Minimax "3SDW100"]
+
+[Event "Event"]
+[Board "12"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:A8.T953.AKQJ.Q62 J6532.4.T7532.K3 QT9.Q86.98.JT754 K74.AKJ72.64.A98"]
+[Ability "N:75658 E:68775 S:75658 W:68775"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 8
+N D 5
+N H 6
+N S 5
+N NT 7
+E C 5
+E D 7
+E H 7
+E S 8
+E NT 6
+S C 8
+S D 5
+S H 6
+S S 5
+S NT 7
+W C 5
+W D 7
+W H 7
+W S 8
+W NT 6
+[OptimumScore "NS -110"]
+[Minimax "2SE-110"]
+
+[Event "Event"]
+[Board "13"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:54.KT75.J6.AKQ43 QT3.J983.KT9.876 J876.A.Q87532.T2 AK92.Q642.A4.J95"]
+[Ability "N:77577 E:66845 S:77577 W:66845"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 7
+N D 7
+N H 5
+N S 7
+N NT 7
+E C 5
+E D 4
+E H 8
+E S 6
+E NT 6
+S C 7
+S D 7
+S H 5
+S S 7
+S NT 7
+W C 5
+W D 4
+W H 8
+W S 6
+W NT 6
+[OptimumScore "NS -110"]
+[Minimax "2HW-110"]
+
+[Event "Event"]
+[Board "14"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:873.AT.765.T7543 QT6.K43.AJ93.K82 J942.J986.T82.J9 AK5.Q752.KQ4.AQ6"]
+[Ability "N:12213 E:CBBCA S:12213 W:CBBCA"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 3
+N D 1
+N H 2
+N S 2
+N NT 1
+E C 10
+E D 12
+E H 11
+E S 11
+E NT 12
+S C 3
+S D 1
+S H 2
+S S 2
+S NT 1
+W C 10
+W D 12
+W H 11
+W S 11
+W NT 12
+[OptimumScore "NS -990"]
+[Minimax "6NW-990"]
+
+[Event "Event"]
+[Board "15"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:.QJ82.Q964.KQ983 J6532.T95.83.J42 AQ98.A74.KJT5.T7 KT74.K63.A72.A65"]
+[Ability "N:979A9 E:36333 S:A79A9 W:36334"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 9
+N D 10
+N H 9
+N S 7
+N NT 9
+E C 3
+E D 3
+E H 3
+E S 6
+E NT 3
+S C 9
+S D 10
+S H 9
+S S 7
+S NT 10
+W C 4
+W D 3
+W H 3
+W S 6
+W NT 3
+[OptimumScore "NS 630"]
+[Minimax "3NS630"]
+
+[Event "Event"]
+[Board "16"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:AQJT.KJ973.A.K42 654.AQ84.83.AQT6 9.652.KJT654.953 K8732.T.Q972.J87"]
+[Ability "N:65865 E:78467 S:55765 W:78577"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 5
+N D 6
+N H 8
+N S 5
+N NT 6
+E C 7
+E D 6
+E H 4
+E S 8
+E NT 7
+S C 5
+S D 6
+S H 7
+S S 5
+S NT 5
+W C 7
+W D 7
+W H 5
+W S 8
+W NT 7
+[OptimumScore "NS -100"]
+[Minimax "3HDN-100"]
+
+[Event "Event"]
+[Board "17"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:4.AQ.Q9743.T5432 KT73.K9832.KJ2.6 AJ962.J76.86.A97 Q85.T54.AT5.KQJ8"]
+[Ability "N:45566 E:98876 S:45566 W:98876"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 6
+N D 6
+N H 5
+N S 5
+N NT 4
+E C 6
+E D 7
+E H 8
+E S 8
+E NT 9
+S C 6
+S D 6
+S H 5
+S S 5
+S NT 4
+W C 6
+W D 7
+W H 8
+W S 8
+W NT 9
+[OptimumScore "NS -400"]
+[Minimax "3NW-400"]
+
+[Event "Event"]
+[Board "18"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:KQJ53.K4.AJ953.5 T72.QT2.KQ4.QT63 A6.AJ9876.T2.742 984.53.876.AKJ98"]
+[Ability "N:8CBA6 E:11135 S:8CBA6 W:11135"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 6
+N D 10
+N H 11
+N S 12
+N NT 8
+E C 5
+E D 3
+E H 1
+E S 1
+E NT 1
+S C 6
+S D 10
+S H 11
+S S 12
+S NT 8
+W C 5
+W D 3
+W H 1
+W S 1
+W NT 1
+[OptimumScore "NS 1430"]
+[Minimax "6SN1430"]
+
+[Event "Event"]
+[Board "19"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:JT.AK72.9764.Q82 8643.83.A82.A963 Q972.J9654..KJ54 AK5.QT.KQJT53.T7"]
+[Ability "N:45A47 E:87395 S:45A47 W:87395"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 7
+N D 4
+N H 10
+N S 5
+N NT 4
+E C 5
+E D 9
+E H 3
+E S 7
+E NT 8
+S C 7
+S D 4
+S H 10
+S S 5
+S NT 4
+W C 5
+W D 9
+W H 3
+W S 7
+W NT 8
+[OptimumScore "NS 420"]
+[Minimax "4HS420"]
+
+[Event "Event"]
+[Board "20"]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:T97432.Q9.T9.KT8 Q8.J54.J82.QJ953 5.A863.AK7654.72 AKJ6.KT72.Q3.A64"]
+[Ability "N:46684 E:76758 S:46684 W:76758"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 4
+N D 8
+N H 6
+N S 6
+N NT 4
+E C 8
+E D 5
+E H 7
+E S 6
+E NT 7
+S C 4
+S D 8
+S H 6
+S S 6
+S NT 4
+W C 8
+W D 5
+W H 7
+W S 6
+W NT 7
+[OptimumScore "NS 90"]
+[Minimax "2DS90"]
+
+[Event "Event"]
+[Board "21"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:K93.K86.QJ654.76 8642.J52.A.J9854 T.AQT94.KT87.T32 AQJ75.73.932.AKQ"]
+[Ability "N:63794 E:5A549 S:63794 W:5A549"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 4
+N D 9
+N H 7
+N S 3
+N NT 6
+E C 9
+E D 4
+E H 5
+E S 10
+E NT 5
+S C 4
+S D 9
+S H 7
+S S 3
+S NT 6
+W C 9
+W D 4
+W H 5
+W S 10
+W NT 5
+[OptimumScore "NS -420"]
+[Minimax "4SW-420"]
+
+[Event "Event"]
+[Board "22"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:J963.KJ4.T9.J987 AK8.Q6.KJ7.AQ432 QT754.A985.A6.65 2.T732.Q85432.KT"]
+[Ability "N:48634 E:957A9 S:47634 W:957A9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 4
+N D 3
+N H 6
+N S 8
+N NT 4
+E C 9
+E D 10
+E H 7
+E S 5
+E NT 9
+S C 4
+S D 3
+S H 6
+S S 7
+S NT 4
+W C 9
+W D 10
+W H 7
+W S 5
+W NT 9
+[OptimumScore "NS -300"]
+[Minimax "4SDN-300"]
+
+[Event "Event"]
+[Board "23"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:QJ876.T8753.T3.4 T3.AQ2.K654.AT53 AK2.K64.AQ98.Q76 954.J9.J72.KJ982"]
+[Ability "N:7AA65 E:63368 S:7AA65 W:63368"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 5
+N D 6
+N H 10
+N S 10
+N NT 7
+E C 8
+E D 6
+E H 3
+E S 3
+E NT 6
+S C 5
+S D 6
+S H 10
+S S 10
+S NT 7
+W C 8
+W D 6
+W H 3
+W S 3
+W NT 6
+[OptimumScore "NS 620"]
+[Minimax "4HN620"]
+
+[Event "Event"]
+[Board "24"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:98.QJ986.KJ72.K4 J32.7.Q5.QJT8532 A765.532.A643.97 KQT4.AKT4.T98.A6"]
+[Ability "N:76873 E:67549 S:76873 W:67549"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 3
+N D 7
+N H 8
+N S 6
+N NT 7
+E C 9
+E D 4
+E H 5
+E S 7
+E NT 6
+S C 3
+S D 7
+S H 8
+S S 6
+S NT 7
+W C 9
+W D 4
+W H 5
+W S 7
+W NT 6
+[OptimumScore "NS -100"]
+[Minimax "3HDN-100"]
+
+[Event "Event"]
+[Board "25"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AJ75.K2.QJT6.JT4 KT98.64.432.7632 62.QT53.A987.KQ9 Q43.AJ987.K5.A85"]
+[Ability "N:66696 E:67646 S:76796 W:67646"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 6
+N D 9
+N H 6
+N S 6
+N NT 6
+E C 6
+E D 4
+E H 6
+E S 7
+E NT 6
+S C 6
+S D 9
+S H 7
+S S 6
+S NT 7
+W C 6
+W D 4
+W H 6
+W S 7
+W NT 6
+[OptimumScore "NS 110"]
+[Minimax "2DN110"]
+
+[Event "Event"]
+[Board "26"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:A6.9642.QJ87.AJ2 753.KQ8.965.KT87 QJT942.J53.K43.6 K8.AT7.AT2.Q9543"]
+[Ability "N:59685 E:74558 S:59685 W:84558"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 5
+N D 8
+N H 6
+N S 9
+N NT 5
+E C 8
+E D 5
+E H 5
+E S 4
+E NT 7
+S C 5
+S D 8
+S H 6
+S S 9
+S NT 5
+W C 8
+W D 5
+W H 5
+W S 4
+W NT 8
+[OptimumScore "NS 140"]
+[Minimax "3SS140"]
+
+[Event "Event"]
+[Board "27"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KQ.AKJ4.A6.K8753 J532.T97.T952.JT 864.853.Q873.A64 AT97.Q62.KJ4.Q92"]
+[Ability "N:97A8A E:36343 S:97A8A W:36353"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 10
+N D 8
+N H 10
+N S 7
+N NT 9
+E C 3
+E D 4
+E H 3
+E S 6
+E NT 3
+S C 10
+S D 8
+S H 10
+S S 7
+S NT 9
+W C 3
+W D 5
+W H 3
+W S 6
+W NT 3
+[OptimumScore "NS 420"]
+[Minimax "4HN420"]
+
+[Event "Event"]
+[Board "28"]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:AJ8.Q9.KT542.KJ7 94.AKJT854.AJ.A8 KQT765..Q9863.Q9 32.7632.7.T65432"]
+[Ability "N:4A3B4 E:72A28 S:4A3B4 W:72A28"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 4
+N D 11
+N H 3
+N S 10
+N NT 4
+E C 8
+E D 2
+E H 10
+E S 2
+E NT 7
+S C 4
+S D 11
+S H 3
+S S 10
+S NT 4
+W C 8
+W D 2
+W H 10
+W S 2
+W NT 7
+[OptimumScore "NS 100"]
+[Minimax "5HDE100"]
+
+[Event "Event"]
+[Board "29"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:QT62.JT98.T42.K4 J973.A52.765.A73 K8.KQ3.J9.J98652 A54.764.AKQ83.QT"]
+[Ability "N:44547 E:98796 S:44547 W:98796"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 7
+N D 4
+N H 5
+N S 4
+N NT 4
+E C 6
+E D 9
+E H 7
+E S 8
+E NT 9
+S C 7
+S D 4
+S H 5
+S S 4
+S NT 4
+W C 6
+W D 9
+W H 7
+W S 8
+W NT 9
+[OptimumScore "NS -600"]
+[Minimax "3NW-600"]
+
+[Event "Event"]
+[Board "30"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KQT75.JT7.AQ.532 2.K9542.T982.964 43.A6.J7653.KJ87 AJ986.Q83.K4.AQT"]
+[Ability "N:56477 E:75966 S:67477 W:76966"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 7
+N D 7
+N H 4
+N S 6
+N NT 5
+E C 6
+E D 6
+E H 9
+E S 5
+E NT 7
+S C 7
+S D 7
+S H 4
+S S 7
+S NT 6
+W C 6
+W D 6
+W H 9
+W S 6
+W NT 7
+[OptimumScore "NS -140"]
+[Minimax "3HE-140"]
+
+[Event "Event"]
+[Board "31"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:T9842.652.T4.Q95 J75.KJT.AQ732.86 A63.A8743.K65.J7 KQ.Q9.J98.AKT432"]
+[Ability "N:36533 E:978AA S:36533 W:976A9"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 3
+N D 3
+N H 5
+N S 6
+N NT 3
+E C 10
+E D 10
+E H 8
+E S 7
+E NT 9
+S C 3
+S D 3
+S H 5
+S S 6
+S NT 3
+W C 9
+W D 10
+W H 6
+W S 7
+W NT 9
+[OptimumScore "NS -400"]
+[Minimax "3NE-400"]
+
+[Event "Event"]
+[Board "32"]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:652.KQJ.96.98543 KQ43.T.QJ752.AK6 AJT97.A982.T4.T7 8.76543.AK83.QJ2"]
+[Ability "N:56625 E:867B7 S:56625 W:856B7"]
+[OptimumResultTable "Declarer;Denomination\2R;Result\2R"]
+N C 5
+N D 2
+N H 6
+N S 6
+N NT 5
+E C 7
+E D 11
+E H 7
+E S 6
+E NT 8
+S C 5
+S D 2
+S H 6
+S S 6
+S NT 5
+W C 7
+W D 11
+W H 6
+W S 5
+W NT 8
+[OptimumScore "NS -600"]
+[Minimax "5DE-600"]
+
