@@ -21,20 +21,24 @@
 	<header>
 		<?php require_once('index_header.php'); ?>
 	</header>
-
-		<div class="flex-horizontal">
-			<main role="main">
-				<?php require_once('index_schedule.php'); ?>
-			</main>
-			
-			<aside>
-				<?php require_once('index_aside.php'); ?>
-			</aside>
-			
-			<footer>
-				<?php require_once('index_footer.php'); ?>
-			</footer>
-		</div>
+	
+	<div class="alert alert-warning" role="alert" style="text-align: center;">
+		<a class="alert-link" href="https://docs.google.com/forms/d/e/1FAIpQLScIdRbiQ93VdsbPkuk-0iqUUuUXCUkldvzVPsDNuGcVy1xxmw/viewform?vc=0&c=0&w=1&flr=0" target="_blank">⚠️📝 Ankieta dla uczestników </a>
 	</div>
+
+	<div class="flex-horizontal">
+		<main role="main">
+			<?php require_once('index_schedule.php'); ?>
+		</main>
+		
+		<aside>
+			<?php require_once('index_aside.php'); ?>
+		</aside>
+		
+		<footer>
+			<?php require_once('index_footer.php'); ?>
+		</footer>
+	</div>
+</div>
 </body>
 </html>
